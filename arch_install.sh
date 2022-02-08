@@ -30,7 +30,7 @@ eval "vim /etc/locale.gen"
 eval "locale-gen"
 
 eval "vim /etc/hostname"
-eval "ln -sf /usr/share/zoneinfo/America/New_York /etc/localetime
+eval "ln -sf /usr/share/zoneinfo/America/New_York /etc/localetime"
 
 eval "unmount -R /mnt"
 eval "reboot"
